@@ -1,4 +1,5 @@
-
+function CheckLevel()
+if First_Sea then
         MyLevel = game:GetService("Players").LocalPlayer.Data.Level.Value
         if World1 then
             if MyLevel == 1 or MyLevel <= 9 then
